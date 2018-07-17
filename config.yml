@@ -1,0 +1,7 @@
+---
+sentry:
+  projects:
+    PROJECT_NAME:
+      name: PROJECT_NAME
+      organization: ORGANIZATION_NAME
+      api_key: API_KEY

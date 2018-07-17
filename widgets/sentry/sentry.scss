@@ -1,0 +1,35 @@
+.widget-sentry-top-errors {
+  font-size: 1.1rem;
+  background: linear-gradient(rgb(74, 62, 86), rgb(48, 40, 57));
+  overflow: hidden;
+
+  &__table {
+    text-align: left;
+  }
+
+  &__table-row {
+    border-top: 1px solid rgb(74, 62, 86);
+    border-bottom: 1px solid rgb(48, 40, 57);
+    padding: .5em 1em;
+    display: block;
+
+    &:last-child {
+      border-bottom: none;
+      box-shadow: none;
+    }
+  }
+
+  &__table-count {
+    padding-right: 1em;
+    color: #7ccca5;
+    font-weight: bold;
+  }
+
+  &__title {
+  }
+
+  &__culprit {
+    font-size: 0.9rem;
+    color: rgb(149, 134, 165);
+  }
+}

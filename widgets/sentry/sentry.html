@@ -1,0 +1,11 @@
+<div class="widget-sentry-top-errors">
+    <table class="widget-sentry-top-errors__table">
+        <tr class="widget-sentry-top-errors__table-row" data-foreach-item="errorList">
+            <td class="widget-sentry-top-errors__table-count" data-bind="item.count"></td>
+            <td class="widget-sentry-top-errors__table-title">
+              <div class="widget-sentry-top-errors__title" data-bind="item.title"></div>
+              <div class="widget-sentry-top-errors__culprit" data-bind="item.culprit"></div>
+            </td>
+        </tr>
+    </table>
+</div>
